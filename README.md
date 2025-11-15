@@ -1,6 +1,6 @@
 # Lynis Analyzer
 
-Lynis Analyzer is a small Next.js app that parses Lynis `.dat` reports and shows warnings and suggestions in a clean UI. You can optionally run AI analysis using Gemini with your own API key.
+Lynis Analyzer is a small Next.js app that parses Lynis `.dat` reports and shows warnings and suggestions. You can optionally run AI analysis using Gemini with your own API key.
 
 **Live demo:** https://ashwnn.github.io/lynis-analyzer/
 
