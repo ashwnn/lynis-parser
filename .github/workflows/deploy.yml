@@ -37,6 +37,13 @@ jobs:
       - name: Build with Next.js
         run: npm run build
 
+      - name: Show generated files
+        run: |
+          echo "Workspace files:"
+          ls -la
+          echo "Out folder:"
+          ls -la ./out || true
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
