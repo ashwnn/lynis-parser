@@ -11,6 +11,9 @@ const nextConfig = {
   env: { NEXT_PUBLIC_BASE_PATH: REPO_BASE },
   // Keep paths folder-style to work well with GitHub Pages (index.html per folder)
   trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

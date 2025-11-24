@@ -44,6 +44,10 @@ jobs:
           echo "Out folder:"
           ls -la ./out || true
 
+      - name: Add .nojekyll file
+        run: touch ./out/.nojekyll
+
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
